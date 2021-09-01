@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(233, 232, 232);
+    color: rgb(56, 55, 55);
+    box-sizing: border-box;
+}
+
+.olClass{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(56, 55, 55, 0.2);
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+ol > li{
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+
+}
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    width: 2%;
+    height: 5%;
+    border: none;
+    background-color: rgba(237, 197, 144);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(56, 55, 55, 0.2);
+}
+li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 25px;
+    color: rgb(56, 55, 55);
+    font-weight: bold;
+    font-size: 20px;
+}
+li:hover{
+    background-color: rgba(237, 197, 144, 0.802);
+}
+ .active{
+     background-color: rgba(237, 197, 144, 0.802);
+ }
+.floatingDiv{
+    position: relative;
+    float: left;
+    background-color: white;
+    overflow: hidden;
+    min-width: 300px;
+    width: 29%;
+    height: 300px;
+    font-weight: 400;
+    font-size: 18px;
+    text-overflow: clip;
+    color: rgb(56, 55, 55);
+    margin: 15px 10px 18px 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 6px rgb(56, 55, 55, 0.2);
+
+}
+
+.icon{
+    overflow: hidden;
+    position: absolute;
+    bottom: 5%;
+    left: 13%;
+    display: inline-block;
+    background-color: rgb(227, 227, 243);
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(56, 55, 55, 0.2);
+    text-align: center;
+}
+
+.icon>a{
+    overflow: hidden;
+    text-decoration: none;
+    color: rgb(56, 55, 55);
+    font-size: 18px;
+    font-weight: 500;
+}
+.secondIcon{
+    margin-left: 44%;
+}
+/* .thirdIcon{
+    margin-left: 64%;
+} */
+.floatingDiv>img{
+    width: 100%;
+    height: 75%;
+    border-radius: 10px;
+}
